@@ -1,0 +1,138 @@
+<!-- i am Harish all source code in this survey form are completely by  me-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form design</title>
+  <link rel="stylesheet" href="survey.css">
+  
+</head>
+
+
+<body>
+  <div id="half">
+      <form>
+        <div class="container">
+          <center> <h1>Survey Form</h1> 
+            <hr>
+            <p>Please fill in this form to create an account.</p>
+            <p>Your input will be <strong>recorded</strong>.</p>
+          </center>
+        <hr>
+        <table>
+          <tr>
+              <td class="t1">
+                <label for="text" id="text"><b> Enter your name:</b></label>
+              </td>
+              <td class="t2">
+                <input type="text" placeholder="Enter Name" name="name" id="name" required>
+              </td>
+          </tr>
+            <br>
+          <tr>
+              <td class="t1">
+                <label for="email" id="e"><b>Your Email:</b></label>
+              </td>
+              <td class="t2"> 
+                <input type="email" placeholder="abcd@gmail.com" name="email" id="email" required>
+              </td>
+          </tr>
+          <tr>
+              <td class="t1">
+                <label for="psw"><b>Your Password:</b></label>
+              </td>
+              <td class="t2">
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              </td>
+          </tr>
+          <tr>
+              <td class="t1">
+                <label for="age"><b>Enter age:</b></label>
+              </td>
+              <td class="t2">
+                <input type="number" name="age" id="age" min="0" max="100" placeholder="Age press Arrow">
+              </td>
+          </tr>
+          <br>
+          <tr>
+              <td class="t1">
+                <label for="birthday"><b>Date Of Birth:</b></label>
+              </td>
+              <td>
+                <input type="date" id="birthday" name="birthday">
+              </td>
+          </tr>
+          <tr>
+              <td class="t1">
+                <label for="gender"><b>Please select your gender:</b></label>
+              </td>
+              <td>
+                <ul>
+                  <li>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                  </li>
+                  <li>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female"> Female</label>
+                  </li>
+                  <li>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                  </li>
+                </ul>
+              </td>
+          </tr>
+
+          <tr>
+              <td class="t1">
+                <label for="Occupation"><b>Your Occupation :</b></label>
+              </td>
+              <td>
+                <select id="occupation" name="occupation">
+                  <option value="" selected disabled hidden>Choose here</option>
+                  <option value="student">student</option>
+                  <option value="Professor">Professor</option>
+                  <option value="Bussinessmen">Bussinessmen</option>
+                  <option value="Uneducated">Uneducated</option>
+                </select>
+              </td>
+          </tr>
+          <tr>
+          <br><br>
+              <td class="t1">
+                <label><b>Things that should be improve in future</b>(check all that apply)</label>
+              </td>
+              <td>
+                <input type="checkbox" id="Front-end" name="Front-end" value="Front-end">
+                <label for="Front-end">Front-end project</label><br>
+                <input type="checkbox" id="back-end" name="back-end" value="back-end">
+                <label for="back-end">Back-end project</label><br>
+                <input type="checkbox" id="data" name="data" value="Data Visualization">
+                <label for="data">Data Visualization</label><br>
+              </td>
+          </tr>
+          <tr>
+              <td class="t1">
+                <label for="course"><b>What do you like most in:</b></label>
+              </td>
+              <td>
+                <select id="course" name="course">
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option value="verseo">Verzeo</option>
+                    <option value="Coursera">Coursera</option>
+                    <option value="Udemy">Udemy</option>
+                    <option value="NPTEL">NPTEL</option>
+                </select>
+              </td>
+          </tr>
+    </table>
+    
+      <p>By submiting survey report you agree to our <a href="#">Terms & Privacy</a>.</p>
+      <button type="submit" class="registerbtn"><strong>submit</strong></button>
+      <p>Design by:Harish chandra Das(group 1 -June batch)</p>
+    </div>
+  
+   
+  </form>
+</div>
+</body>
