@@ -71,11 +71,11 @@ select{
     padding: 3px;
 
 }
-@media only screen and (max-width:900px){
-    #half{
+@media only screen and (max-width:880px){
+    div#half{
         width: 100%;
-        margin-left: 0;
-        padding: 0%;
+        margin-left: 0px;
+        padding: 0px;
     }
     input[type=text], input[type=password] ,input[type=email],input[type=number]{
         width: 100%;
