@@ -71,7 +71,7 @@ select{
     padding: 3px;
 
 }
-@media (max-width:880px){
+@media (max-width:780px){
     #half{
         width: 100%;
         margin-left: 0;
